@@ -63,6 +63,40 @@
     text-align: right;
 }
 
+.header__top-phone, .header__bottom-phone {
+    position: relative;
+}
+
+.header__top-phone {
+    margin-bottom: 2px;
+}
+
+.header__top-phone::before {
+    content: "";
+    background-image: url(../img/icons/phone.png);
+    width: 21px;
+    height: 21px;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 50%; 
+    position: absolute;
+    top: 1px;
+    right: 84px;
+}
+
+.header__bottom-phone::before {
+    content: "";
+    background-image: url(../img/icons/phone2.png);
+    width: 23px;
+    height: 23px;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 50%; 
+    position: absolute;
+    top: 1px;
+    right: 84px;
+}
+
 .header__web {
     font-family: RobotoRegular;
     font-size: 11px;
