@@ -15,6 +15,7 @@
     color: #2d4251;
     font-family: RobotoLight;
     font-size: 18px;
+    padding-top: 20px;
 }
 
 .header__logo {
@@ -23,12 +24,13 @@
 }
 
 .header__logo img {
-    width: 196px;
+    width: 100px; /*196px;*/
     height: auto;
 }
 
 .header__nav {
     list-style-type: none;
+    padding-left: 64px;
 }
 
 .header__nav li { 
@@ -41,7 +43,7 @@
 
 .header__link a {
     color: #2d4251;
-    width: 70px;
+    width: 100px;
     display: inline-block;
     text-align: center;
 }
@@ -58,6 +60,7 @@
 .header__phones {
     font-family: RobotoMedium;
     font-size: 11px;
+    text-align: right;
 }
 
 .header__web {
