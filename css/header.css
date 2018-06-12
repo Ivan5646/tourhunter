@@ -63,7 +63,7 @@
     text-align: right;
 }
 
-.header__top-phone, .header__bottom-phone {
+.header__top-phone, .header__bottom-phone, .header__top-web, .header__bottom-web {
     position: relative;
 }
 
@@ -100,6 +100,32 @@
 .header__web {
     font-family: RobotoRegular;
     font-size: 11px;
+}
+
+.header__top-web::before {
+    content: "";
+    background-image: url(../img/icons/mail.png);
+    width: 23px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 50%; 
+    position: absolute;
+    top: 3px;
+    left: -13px;
+}
+
+.header__bottom-web::before {
+    content: "";
+    background-image: url(../img/icons/compass.png);
+    width: 23px;
+    height: 23px;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 50%; 
+    position: absolute;
+    bottom: -10px;
+    left: -13px;
 }
 
 .header__address {
