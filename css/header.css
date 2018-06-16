@@ -141,3 +141,34 @@
     font-family: RobotoRegular;
     font-size: 16px; 
 }
+
+.header__share, .header__language {
+    position: relative;
+    text-indent: 16px;  /*to center text with the icon*/
+}
+
+.header__share::after {
+    content: "";
+    background-image: url(../img/icons/share.png);
+    width: 28px;
+    height: 29px;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 50%; 
+    position: absolute;
+    bottom: -10px;
+    left: 8px;
+}
+
+.header__language::after {
+    content: "";
+    background-image: url(../img/icons/globe.png);
+    width: 28px;
+    height: 29px;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 50%; 
+    position: absolute;
+    bottom: -10px;
+    left: 8px;
+}

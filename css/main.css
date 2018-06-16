@@ -3,4 +3,20 @@
     src: url(fonts/roboto/Roboto-Light.ttf);
 }
 
+.btn {
+    border-radius: 10px;
+    /*border: 1px solid grey;*/
+    border: none;
+    padding: 2px 16px;
+    /*width: 80%;*/
+    text-decoration: none;
+    /*font-size: 30px;*/
+    background: #ffffff;   
+    box-shadow: 1px 2px #ebebeb;
+    outline:none;
+}
 
+.btn:focus,.btn:active {  /*remove default blue outline */
+   outline: none !important;
+   /*box-shadow: none;*/
+}
