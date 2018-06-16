@@ -47,6 +47,10 @@
     margin-right: 20px;
 }
 
+.header__link {
+    margin-bottom: 10px;
+}
+
 .header__link a {
     color: #2d4251;
     width: 100px;
@@ -152,6 +156,9 @@
 .header__share, .header__language {
     position: relative;
     text-indent: 16px;  /*to center text with the icon*/
+    background-color: #e6e6e6; /*remove*/
+    width: 88px;
+    margin-bottom: 10px;
 }
 
 .header__share::before {
@@ -165,6 +172,10 @@
     position: absolute;
     bottom: -10px;
     left: 8px;
+}
+
+.header__language {
+    text-indent: 8px;
 }
 
 .header__language::before {
