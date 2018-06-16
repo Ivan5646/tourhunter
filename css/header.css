@@ -21,6 +21,7 @@
 .header__logo {
     color: yellow;
     font-weight: bold;
+    text-align: center;
 }
 
 .header__logo img {
@@ -29,11 +30,16 @@
 }
 
 .header__nav {
+    text-align: center;
+}
+
+.header__links {
+    display: inline-block;
     list-style-type: none;
     padding-left: 64px;
 }
 
-.header__nav li { 
+.header__links li { 
     float: left;
 }
 
@@ -140,6 +146,7 @@
 .header__buttons {
     font-family: RobotoRegular;
     font-size: 16px; 
+    text-align: center;
 }
 
 .header__share, .header__language {
@@ -147,7 +154,7 @@
     text-indent: 16px;  /*to center text with the icon*/
 }
 
-.header__share::after {
+.header__share::before {
     content: "";
     background-image: url(../img/icons/share.png);
     width: 28px;
@@ -160,7 +167,7 @@
     left: 8px;
 }
 
-.header__language::after {
+.header__language::before {
     content: "";
     background-image: url(../img/icons/globe.png);
     width: 28px;
@@ -171,4 +178,17 @@
     position: absolute;
     bottom: -10px;
     left: 8px;
+}
+
+.header__language::after {
+    content: "";
+    background-image: url(../img/icons/arrow-down.png);
+    width: 20px;
+    height: 12px;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 50%; 
+    position: absolute;
+    bottom: 3px;
+    right: -6px;
 }
